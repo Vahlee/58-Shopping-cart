@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping cart</title><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Cormorant+Garamond:wght@300&family=Gabarito&family=Lobster&family=Nosifer&family=Open+Sans:wght@300&family=Playpen+Sans:wght@200&family=Roboto+Slab:wght@300&family=Roboto:wght@500&family=Tilt+Neon&display=swap" rel="stylesheet">
+
+    <style>
+    .head, .color{
+        display:flex;
+        justify-content: space-between;
+        gap:100px
+    }
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height:100vh;
+        background-image: url(./shopping-background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: Tilt Neon', sans-serif;
+
+    }
+    .border {
+        margin-bottom: 50px;
+    }
+    button {
+        border:0;
+        border-radius: 10px;
+        width:100px;
+        background-color:red;
+        color:white;
+        cursor:pointer;
+    }
+    p, .btn{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+    }
+    .btnn {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .btn {
+        height:50px;
+        width:200px;
+        background-color: green;
+        cursor:pointer;
+    }
+    p {
+        font-weight: bolder;
+    }
+    .container {
+        width:100%;
+        background-color: rgba(206, 205, 219, 0.5);
+        padding: 50px;
+    }
+    h1 {
+        font-size: 2.2rem;
+    }
+ </style>
+</head>
+<body>
+    <div class="container">
+        <div class="border">
+            <img src="./bag.png" alt="bag" height="200">
+           <div class="head">
+              <h1>Aduke Jara Bag</h1>
+              <h2>$35.4</h2>
+            </div>
+            <div class="color">
+                <p class="a87CEEB">Color: #87CEEB</p>
+                <button>Remove</button>
+            </div>
+        </div>
+
+        <div>
+            <img src="./men-shoe.png" alt="shoe" height="200">
+           <div class="head">
+              <h1>Sabi Men Leather Shoe</h1>
+              <h2>$53.9</h2>
+            </div>
+           <div class="color">
+               <p>Color: #964B00</p>
+               <button>Remove</button>
+          </div>
+          <div class="btnn"><button class="btn">Check Out <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+          </svg></button></div>
+    </div>
+            
+</body>
+</html>
